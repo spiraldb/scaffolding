@@ -3,6 +3,7 @@ use std::net::TcpListener;
 // Remove.
 #[allow(unused_mut)]
 #[allow(unused_variables)]
+// Run with `cargo run --bin server`.
 fn main() {
     let mut args = std::env::args();
     _ = args.next();
